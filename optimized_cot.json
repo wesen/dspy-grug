@@ -1,0 +1,29 @@
+{
+  "prog": {
+    "lm": null,
+    "traces": [],
+    "train": [],
+    "demos": [
+      {
+        "grug_text": "although mostly still confused",
+        "plain_english": "Although mostly still confused."
+      },
+      {
+        "grug_text": "THINK they are big brained developers many, many more, and more even definitely probably maybe not like this, many",
+        "plain_english": "Many developers think they are very knowledgeable, but there are actually many more who might not be as competent as they believe."
+      },
+      {
+        "grug_text": "because as grug brain developer get older he forget important things, like what had for breakfast or if put pants on",
+        "plain_english": "\"Because as Grug's brain develops and ages, he forgets important things, like what he had for breakfast or whether he put on pants.\""
+      },
+      {
+        "grug_text": "grug brain developer not so smart, but grug brain developer program many long year and learn some things",
+        "plain_english": "Grug is not very smart, but he has been programming for many years and has learned some things."
+      }
+    ],
+    "signature_instructions": "Translate plain english to grug text",
+    "signature_prefix": "Grug Text:",
+    "extended_signature_instructions": "Translate plain english to grug text",
+    "extended_signature_prefix": "Grug Text:"
+  }
+}
