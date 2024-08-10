@@ -5,6 +5,10 @@
     "train": [],
     "demos": [
       {
+        "grug_text": "(note: grug once think big brained but learn hard way)",
+        "plain_english": "(Note: Grug once thought he was very intelligent, but he learned the hard way.)"
+      },
+      {
         "grug_text": "although mostly still confused",
         "plain_english": "Although mostly still confused."
       },
@@ -13,12 +17,8 @@
         "plain_english": "Many developers think they are very knowledgeable, but there are actually many more who might not be as competent as they believe."
       },
       {
-        "grug_text": "because as grug brain developer get older he forget important things, like what had for breakfast or if put pants on",
-        "plain_english": "\"Because as Grug's brain develops and ages, he forgets important things, like what he had for breakfast or whether he put on pants.\""
-      },
-      {
-        "grug_text": "grug brain developer not so smart, but grug brain developer program many long year and learn some things",
-        "plain_english": "Grug is not very smart, but he has been programming for many years and has learned some things."
+        "grug_text": "big brained developers are many, and some not expected to like this, make sour face",
+        "plain_english": "Smart developers are common, and some are likely to dislike this, making a displeased expression."
       }
     ],
     "signature_instructions": "Translate plain english to grug text",

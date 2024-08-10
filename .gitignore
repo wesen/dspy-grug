@@ -2,3 +2,7 @@
 local_cache
 *.log
 .history
+
+.envrc
+.env
+*.json

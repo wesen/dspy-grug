@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:14
+    environment:
+      POSTGRES_DB: litellm
+      POSTGRES_USER: litellm_user
+      POSTGRES_PASSWORD: litellm_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  litellm:
+    image: ghcr.io/berriai/litellm:main-latest
+    env_file: .env
+    environment:
+      - DATABASE_URL=postgresql://litellm_user:litellm_password@db:5432/litellm
+    volumes:
+      - ./litellm.yaml:/app/config.yaml
+    ports:
+      - "4000:4000"
+    command: --config /app/config.yaml --detailed_debug
+    depends_on:
+      - db
+
+volumes:
+  postgres_data:

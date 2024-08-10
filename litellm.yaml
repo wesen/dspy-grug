@@ -1,0 +1,7 @@
+model_list: 
+  - model_name: starcoder
+    litellm_params: # all params accepted by litellm.completion() - https://docs.litellm.ai/docs/completion/input
+      model: huggingface/bigcode/starcoder
+  - model_name: foobar
+    litellm_params:
+      model: openai/gpt-4o-mini

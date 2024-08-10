@@ -312,10 +312,12 @@ if __name__ == "__main__":
     # translator.test_ari()
     # translator.test_assess()
 
-    translator.optimize_model(train, test)
+    # translator.optimize_model(train, test)
+    c = CoT()
+    print(f"named predictors: {c.named_predictors()}")
 
-    print("\nmini history")
-    mini.inspect_history(n=10)
+    # print("\nmini history")
+    # mini.inspect_history(n=10)
 
-    print("\ngpt4o history")
-    print(gpt4o.inspect_history(n=10))
+    # print("\ngpt4o history")
+    # print(gpt4o.inspect_history(n=10))
